@@ -196,3 +196,40 @@ alert(dateDiff(2,15,40,4,5,10));*/
 alert(greatestCommonDenominator(55,31));*/
 
 //Завдання №2
+/*function multipliers(value, temp = [], index = 2)
+{
+    if(value === 1)
+    {
+        return temp.join("*");
+    }
+    else
+    {
+        if(value % index === 0)
+        {
+            temp.push(index);
+            return multipliers(value/index, temp, index);
+        }
+        else
+        {
+            ++index;
+            return multipliers(value, temp, index);
+        }
+    }
+}
+
+alert(multipliers(200));*/
+
+//Завдання №3
+function fibonaciNumbers(value)
+{
+    if(value <= 1)
+    {
+        return value;
+    }
+    else
+    {
+        return fibonaciNumbers(value - 1) + fibonaciNumbers(value - 2);
+    }
+}
+
+alert(fibonaciNumbers(6));
