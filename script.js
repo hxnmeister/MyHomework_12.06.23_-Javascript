@@ -220,7 +220,7 @@ alert(greatestCommonDenominator(55,31));*/
 alert(multipliers(200));*/
 
 //Завдання №3
-function fibonaciNumbers(value)
+/*function fibonaciNumbers(value)
 {
     if(value <= 1)
     {
@@ -232,4 +232,4 @@ function fibonaciNumbers(value)
     }
 }
 
-alert(fibonaciNumbers(6));
+alert(fibonaciNumbers(6));*/
